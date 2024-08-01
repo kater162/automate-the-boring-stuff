@@ -8,5 +8,5 @@ Source code made based on book [Automate the boring stuff with Python](https://a
 
 - Some of the if statements in these examples are kind of weird and with a few extra checks that I for now don't see the reason for it. \
   Looking at rpsGame.py has checks for all the possibilities for losing. \
-  I would have though that if the you have checked of ties and all the winning scenraios the only other possibility would be a loss. \
-  So a simple else should suffice.
+  I would have though that if the you have checked of ties and all the winning scenraios the only other possibility would be a loss, so a single else should suffice. \
+  I'm guessing the book does this so its easier for the new person to understand what is happening while also giving a some practice of typing if statements?

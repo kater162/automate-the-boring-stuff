@@ -10,3 +10,8 @@ Source code made based on book [Automate the boring stuff with Python](https://a
   Looking at rpsGame.py has checks for all the possibilities for losing. \
   I would have though that if the you have checked of ties and all the winning scenraios the only other possibility would be a loss, so a single else should suffice. \
   I'm guessing the book does this so its easier for the new person to understand what is happening while also giving a some practice of typing if statements?
+
+- "You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam." \
+  This sounds like a nightmare waiting to happen. \
+  Some more details on how exacly this works can be found on the "Local and Global Variables with the Same Name" section and localGlobalSameName.py program. \
+  Also important to note that "local scope" by default only reads global variables, however that can be changed using the "global" statement.

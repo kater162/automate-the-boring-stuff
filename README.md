@@ -14,4 +14,6 @@ Source code made based on book [Automate the boring stuff with Python](https://a
 - "You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam." \
   This sounds like a nightmare waiting to happen. \
   Some more details on how exacly this works can be found on the "Local and Global Variables with the Same Name" section and localGlobalSameName.py program. \
-  Also important to note that "local scope" by default only reads global variables, however that can be changed using the "global" statement.
+  Also important to note that "local scope" by default only reads global variables, however that can be changed using the "global" statement. \
+  Looking at the sameNameError.py exercise, that would be something that I would first expect the it to use the global variable and then create a local one with the same name. \
+  I guess I just need to be a bit more carefull with local and globals scopes.

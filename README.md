@@ -17,3 +17,12 @@ Source code made based on book [Automate the boring stuff with Python](https://a
   Also important to note that "local scope" by default only reads global variables, however that can be changed using the "global" statement. \
   Looking at the sameNameError.py exercise, that would be something that I would first expect the it to use the global variable and then create a local one with the same name. \
   I guess I just need to be a bit more carefull with local and globals scopes.
+
+- This didn't click to me until now but you can turn something single value into a list by encapsulating the value in square brakets. \
+  ```py
+  [variable1]
+  ```
+  Is the list equivalent of:
+  ```py
+  int(variable1)
+  ```

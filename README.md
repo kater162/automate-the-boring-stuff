@@ -26,3 +26,7 @@ Source code made based on book [Automate the boring stuff with Python](https://a
   ```py
   int(variable1)
   ```
+
+- Looking at section on copy Module, the note on deepcopy is quite small but quite significant. \
+  If coppying a list of lists with just ```copy.copy(list1)``` that can make you have the similar issues as just referencing the the entire list with ```list2 = list1``` if you are not careful. \
+  On a side note, as far as I can tell the list.copy() method has the same effect as copy.copy(list).
